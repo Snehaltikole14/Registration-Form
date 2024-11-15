@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height for vertical centering */
+}
+
+.header {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header input.first-name,
+.header input.last-name {
+  width: 18vw;
+}
+
+.header input {
+  height: 5vh;
+  width: 50vw;
+}
+
+.header label {
+  align-self: flex-start;
+}
+
+.header input,
+.header select {
+  height: 5vh;
+  width: 36vw;
+  padding: 5px;
+}
+.header .terms-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+.terms-container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.header button {
+  text-align: center;
+  color: white;
+  background-color: blue;
+  width: 50vw;
+  align-items: center;
+  height: 5vh;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.header button:hover {
+  background-color: darkblue;
+}
+
+.header .button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  gap: 5px;
+}

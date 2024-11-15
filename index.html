@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Registration Form</h1>
+        <form>
+          <label for="First"> Full Name</label>
+          <br />
+          <input
+            id="first-name"
+            class="first-name"
+            type="first Name"
+            placeholder=" First "
+            required
+          />
+          <input
+            id="last-name"
+            class="last-name"
+            type="last Name"
+            placeholder=" Last "
+            required
+          />
+          <br />
+          <br />
+
+          <label for="date">Date Of Birth</label>
+          <br />
+          <input type="date" placeholder="Enter DOB" required />
+          <br />
+          <br />
+          <label for=" Number">Contact Details</label>
+          <br />
+          <input type="number" placeholder="Enter Contact Number" required />
+          <br />
+          <br />
+          <label for="email">Email Adress</label>
+          <br />
+          <input type="email" placeholder="Enter Email" required />
+          <br />
+          <br />
+          <label for="password">Password</label>
+          <br />
+          <input type="password" placeholder="Enter Password" required />
+          <br />
+          <br />
+          <label for="country">Country</label>
+          <br />
+          <select name="country" id="country">
+            <option value="" disabled country>Select a Country</option>
+            <option value="country">China</option>
+            <option value="country">India</option>
+            <option value="country">USA</option>
+            <option value="country">Argentina</option>
+            <option value="country">Australia</option>
+          </select>
+          <br />
+          <br />
+
+          <div class="terms-container">
+            <input type="checkbox" id="terms" required />
+            <label for="terms">I agree to Terms and Conditions</label>
+          </div>
+          <br />
+          <br />
+          <div class="button-group">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
